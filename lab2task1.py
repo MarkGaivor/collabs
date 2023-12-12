@@ -1,10 +1,13 @@
-capitalchik=89203918
-zpshka=237821
-traty=2123942
-my_denezhki=capitalchik+zpshka-traty
+capitalchik=100000
+zpshka=10000
+traty=20000
+raznost=traty-zpshka
+capitalchik=capitalchik-raznost
 inflya=0.05
 month=1
-while my_denezhki>0:
-        my_denezhki-=traty*(1+inflya)
+while capitalchik>0:
+        traty*=(1+inflya)
+        raznost=traty-zpshka
+        capitalchik-=raznost
         month+=1
-print(month)
+print(month-1)
