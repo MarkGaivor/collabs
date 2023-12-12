@@ -1,4 +1,4 @@
-players=['idiot','messi','ronaldo','al capone','nigger','valera']
+players=['petrov','messi','ronaldo','al capone','morgenshtern','valera']
 vsego=len(players)
 tem=vsego//2
 team1=players[0:tem]
